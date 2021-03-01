@@ -1,33 +1,14 @@
 #include <stdio.h>
+
 int main(){
+    // int x = 1;
+    //printing the address of the stored data
 
-    char name[5];
+    // printf("The address of the variable is %p: ", &x);
 
-    printf("Enter a characeter: ");
-    scanf("%3s", name);
-    
-    if (name[0] == 'o'){
-        printf("Correct! Enter another one!\n");
-         scanf("%3s", name);
-    
-
-    }
-    else if(name[1]=='w'){
-        printf("Correct! Enter another one!\n");
-         scanf("%3s", name);
-    
-        
-    }
-    else if (name[2] == 'a'){
-        printf("Correct! You are done!\n");
-         
-    
-    }
-    else{
-        printf("Game Over! You did not guess the correct characters in the name");
-
-    }
+char codes[2];
+scanf("%d", codes);
+printf("%d", codes[0]);
 
 
-    
 }
