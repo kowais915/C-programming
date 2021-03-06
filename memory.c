@@ -14,6 +14,6 @@ int x = 90;
 // printf("The address of x is: %p", &x );
 
 int *addressOfx = &x;
-printf("%i", addressOfx);
+
 
 }
