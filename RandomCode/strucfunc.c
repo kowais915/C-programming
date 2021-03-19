@@ -15,11 +15,7 @@ void func(struct gamestore store){
 
 int main(){
 
-struct gamestore nyc;
-
-nyc.name ="James & sons";
-nyc.numberOfgames = 34;
-nyc.location = "Times Square";
+struct gamestore nyc = {"Tom & Sons", 50, "Manhatten"};
 
 func(nyc);
 
