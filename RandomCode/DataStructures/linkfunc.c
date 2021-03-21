@@ -12,8 +12,8 @@ typedef struct student{
 
 void change(student *std){
 
-    (*std).cgpa = 3.8;
-    printf("Your CGPA is: %f", (*std).cgpa);
+    std->cgpa = 3.8;
+    printf("Your CGPA is: %f", std->cgpa);
 }
 int main(){
 
