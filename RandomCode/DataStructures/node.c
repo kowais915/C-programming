@@ -12,15 +12,15 @@ void start (node *head){
 
     node *ptr = head;
 
-    while (ptr != NULL)
-    {
-        printf("%d, ", ptr->data);
-        ptr = ptr->next;
+while (ptr!=NULL)
+{
 
-    }
+    printf("%d\n", ptr->data);
+    ptr = ptr->next;
 
-    printf("\n");
-    
+}
+
+printf("\n");
 }
 
 int main(){
