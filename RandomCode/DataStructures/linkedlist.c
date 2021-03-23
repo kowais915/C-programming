@@ -41,13 +41,14 @@ island skull = {"Skull Island", "10:00", "11:00", NULL};
 
 //linking the island together
 
-amity.next = &craggy;
-craggy.next = &isla_nubla;
+
+craggy.next = &amity;
+amity.next = &isla_nubla;
 isla_nubla.next = &skull;
 skull.next =&shutter;
 
 
-travel(&amity);
+travel(&craggy);
 
 
 
