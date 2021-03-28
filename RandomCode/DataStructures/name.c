@@ -10,7 +10,7 @@ typedef struct students{
 
 void travel(student *start){
     student *i = start;
-    while (i!=NULL)
+    while (i!=NULL)*
     {
         printf("Name: %s\nAge: %d\n", i->name, i->age);
         i = i->next;

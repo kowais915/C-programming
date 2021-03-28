@@ -87,7 +87,7 @@ fclose(fp);
 
 //printing the inserted data that was inserted into the linkedlist
   for(current = head; current ; current=current->next){
-        printf("Data from the text file has been loaded to a linked insert\n");
+        printf("Data from the text file has been loaded to a linked insert:\n");
         printf("%s\n", current->integers);
     
 
@@ -128,7 +128,7 @@ num6.data = 5;
 num6.next = NULL;
 
 reverseLink(&head1);
-printf("The linked has been reversed\n");
+printf("The linked has been reversed.\n");
 printf("Printing the reversed list\n");
 
 print(head1);
@@ -138,8 +138,9 @@ print(head1);
 
 // printf("%s ", head->integers);
 
+//freeing allocated memory
+free(fp);
 
-return 0;
 }
 
 

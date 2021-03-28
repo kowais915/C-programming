@@ -4,9 +4,6 @@
 
 
 
-// void passstructs(struct student std){
-// printf("%s, %d, %f ", std.name, std.age, std.cgpa);
-// }
 
 
 struct student {
@@ -15,14 +12,24 @@ struct student {
     float cgpa;
 
 };
+void funct(struct student std){
+printf("Name is %s\n", std.name);
+printf("Age is %d\n", std.age);
+printf("GPA is %d\n", std.age);
+}
+
 
 int main(){
 
 //using the new data type
-struct student owais = {"Owais", 20, 3.4};
+struct student owais;
+owais.name = "Owais";
+owais.age =20;
+owais.cgpa = 3.4;
+
+funct(owais);
+
 //calling the function
 // passstructs(struct owais owais.name);
 
-
-printf("The name of the student is %s, his age is %d, and his GPA is %f", owais.name, owais.age, owais.cgpa);
 }

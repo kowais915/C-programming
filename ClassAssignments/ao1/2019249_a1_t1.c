@@ -7,7 +7,7 @@ int main(int arga, char* argb[]){
 
 
 //Making sure the user inputs at least two arguments
-if(arga==1){
+if(arga!=2){
 printf("Please provide two arguments!");
 }
 
