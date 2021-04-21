@@ -17,7 +17,7 @@
 
 int factorial(int n){
 
-    if (n==01)
+    if (n<=0)
     {
         printf("Factorial is at its end!\n");
         return 1;
@@ -29,6 +29,6 @@ int factorial(int n){
     
 }
 int main(){
-    printf("%d\n", factorial(3));
+    printf("%d\n", factorial(4));
 
 } 
