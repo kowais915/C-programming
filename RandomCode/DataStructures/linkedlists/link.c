@@ -18,8 +18,8 @@ node *head = (node*)malloc(sizeof(node));
 head->data = 23;
 head->next = NULL;
 
-printf("The data in the struct is: %d", head->data);
-printf("The address in the struct is: %d", head);
+// printf("The data in the struct is: %d", head->data);
+// printf("The address in the struct is: %d", head);
 
 
 
