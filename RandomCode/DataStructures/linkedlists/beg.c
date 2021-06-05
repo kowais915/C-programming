@@ -43,6 +43,15 @@ void addAtend(node *head, int val){
 }
 
 //insert at begining
+void insertAtStart(node **head, int val){
+        node *newnode = (node*)malloc(sizeof(node));
+     
+    newnode->data = val;
+    newnode->next = *head;
+    *head = newnode;
+    printf("\nSuccess! New node has been added at the begining of the linked list.");
+    printf("\nPrinting the new linked list: ");
+}
 
 int main(){
 
@@ -64,13 +73,9 @@ int main(){
     // printer(head);
 //insert at the begining
 
-    node *newnode = (node*)malloc(sizeof(node));
-    printf("Enter a value to be inerted in the newnode: ");
-    scanf("%d", &newnode->data);
-    newnode->next = head;
-    head = newnode;
-    printf("\nSuccess! New node has been added at the begining of the linked list.");
-    printf("\nPrinting the new linked list: ");
+
+    insertAtStart(&head, 12);
+    insertAtStart(&head, 23);
     printer(head);
 
 
