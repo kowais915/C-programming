@@ -1,0 +1,21 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2021.3.30)  14 APR 2021 09:16
+entering extended mode
+**d:/Owais/GIKI/4th_Semester_Spring_2021/CS221/Practice/C-programming/LabAssignments/lab5/t1.tex
+(d:/Owais/GIKI/4th_Semester_Spring_2021/CS221/Practice/C-programming/LabAssignments/lab5/t1.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>)
+! Emergency stop.
+<*> ...ce/C-programming/LabAssignments/lab5/t1.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 480934
+ 757 string characters out of 2909665
+ 239327 words of memory out of 3000000
+ 15987 multiletter control sequences out of 15000+200000
+ 532338 words of font info for 24 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,0n,15p,126b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
